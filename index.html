@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebAdb</title>
+    <style>
+        body{
+            background:linear-gradient(70deg,#4b6ecf,#a303ec)
+        }
+        .tlogo{ 
+            color: rgb(41, 39, 39);
+            font-size: 400%;
+            text-align: center;
+            transform: translateY(50%);
+        }
+        .linkbutton{
+            height: 100px;
+            width: 660px;
+            position: absolute;
+            top: 37%;
+            left: 50%;
+            margin: -50px 0 0 -330px;
+            font-size: 400%;
+            background:linear-gradient(-70deg,#4b6ecf,#a303ec);
+            border-radius: 30px;
+            border: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="tlogo">WebAdb — 在網頁讀取裝置訊息</h1>
+    <button class="linkbutton" id="connect">按此連接裝置以開始</button>
+    <pre class="outputText" id="output"></pre>
+
+    <script src="app.js"></script>
+</body>
+</html>
